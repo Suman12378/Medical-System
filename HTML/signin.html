@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-color: #f2f6ff;
+            color: white;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .icon{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        form{
+            background-color: rgb(18, 40, 102);
+            text-align: center;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid gray;
+        }
+        .heading{
+            font-size: 22px;
+            margin: 26px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+            width: 150px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .headings{
+            text-decoration: none;
+            color: black;
+        }
+        #socialicons{
+            background-color: #f2f6ff;
+            padding: 20px;
+        }
+        .inputuser{
+            font-size: 18px;
+            background-color: white;
+            border-radius: 10px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 2px solid gray;
+            width: 100%;
+        }
+        #inputwrapper{
+            padding-left: 80px;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-right: 80px;
+        }
+        #register{
+            background-color: #2aaadd;
+            border-radius: 15px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: black;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            height: 15px;
+        }
+        #register:hover{
+           background-color: rgba(24, 120, 223, 0.96);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Sign in for Patient</h1>
+        
+        <div id="inputwrapper">
+            <div>
+                <input type="number" placeholder="Mobile Number" name="user" class="inputuser">
+            </div>
+            <div>
+                <input type="email" placeholder="Email" name="email" class="inputuser">
+            </div>
+            <div>
+                <input type="password" placeholder="Password" name="password" class="inputuser">
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password" name="cpass" class="inputuser">
+            </div>
+            <input type="submit" value="Signin" id="register">
+        </div>
+        
+    </form>
+</body>
+</html>
